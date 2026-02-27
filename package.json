@@ -3,14 +3,22 @@
   "version": "6.8.5",
   "description": "Custom Baileys WhatsApp API",
   "keywords": [
-    "baileys", "whatsapp", "js-whatsapp", "whatsapp-api", "whatsapp-web", "whatsapp-bot", "automation", "multi-device"
+    "baileys",
+    "whatsapp",
+    "js-whatsapp",
+    "whatsapp-api",
+    "whatsapp-web",
+    "whatsapp-bot",
+    "automation",
+    "multi-device"
   ],
-  "homepage": "https://github.com/this-xyz/baileys#readme",
+  "homepage": "https://github.com/WhiskeySockets/Baileys",
   "repository": {
-    "url": "https://github.com/this-xyz/baileys.git"
+    "type": "git",
+    "url": "https://github.com/WhiskeySockets/Baileys.git"
   },
-  "license": "MIT-License",
-  "author": "this-xyz",
+  "license": "MIT",
+  "author": "WhiskeySockets",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -35,6 +43,7 @@
     "cache-manager": "^5.7.6",
     "cheerio": "^1.0.0-rc.10",
     "libphonenumber-js": "^1.10.20",
+    "libsignal": "github:WhiskeySockets/libsignal-node",
     "lodash": "^4.17.21",
     "music-metadata": "^7.12.3",
     "pino": "^9.6",
@@ -56,6 +65,5 @@
     "qrcode-terminal": { "optional": true },
     "sharp": { "optional": true }
   },
-  "packageManager": "yarn@1.22.19",
   "engines": { "node": ">=20.0.0" }
 }
